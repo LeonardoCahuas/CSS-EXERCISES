@@ -1,0 +1,21 @@
+article{
+    font-style:normal;
+    display: flex;
+    flex-direction: column;
+    orientation: vertical;
+    padding: 15px;
+    font-size: 17px ;
+}
+
+img{
+    
+        width: 100%;
+        height: auto;
+      
+}
+div{
+    padding:10px;
+    border: 1px solid grey;
+    width: 100%;
+}
+
