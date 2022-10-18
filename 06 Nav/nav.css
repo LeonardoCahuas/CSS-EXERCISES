@@ -1,0 +1,83 @@
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    
+}
+
+button:hover {
+    background-color: green;
+    color:white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    
+    background-color: rgb(65, 59, 59);
+    
+}
+
+
+#left{
+    display: flex;    
+    align-items: center;
+    gap:17px;
+    
+}
+select{
+  background-color:rgb(65, 59, 59);
+  
+  
+  
+}
+.select{
+    max-width: 9ch;
+    overflow: hidden;
+    
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+
+input, button, select{
+    font-size: large;
+}
+.white{
+    color: white;
+}
+.grey{
+    color: rgb(168, 156, 156);
+}
+.disabled{
+    color:grey;
+}
+input{
+    background-color: rgb(125, 108, 108);
+}
+
+.burgermenu {
+    background-color: rgb(65, 59, 59);
+    position: relative;
+    padding:14px 16px;
+    font-size: 25px;
+    display:none;
+  }
+
+.search{
+    margin-right: 20px;
+}
+@media(min-width:768px){
+    .burgermenu{
+        display:block;
+    }
+    #bigger{
+        display: none;
+    }
+}
