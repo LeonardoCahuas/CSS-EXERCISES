@@ -1,5 +1,5 @@
 aside {
-   
+    background-image: linear-gradient(white, grey);
     width: 200px;
     padding:10px;
     display: flex;
@@ -9,7 +9,8 @@ aside {
 
 a{
     color:#2b2b2b;
-    transition: color 0.3s ;
+    transition: color 0.3s;
+    font-size: 25px;
 }
 
 a:hover{
@@ -20,6 +21,19 @@ a:hover{
     position: absolute;
     bottom: 5px;
     
+}
+.links{
+    display:flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+i{
+    margin-left: 25px;
+    font-size: 30px;
+}
+h6{
+    font-size: 20px;
 }
 
 
